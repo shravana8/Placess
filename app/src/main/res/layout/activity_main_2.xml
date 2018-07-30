@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/golg" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="209dp"
+        android:text="Name : GolGumbaz"
+        android:textColor="#F00766"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textview3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:text="
+            \nGol Gumbaz is the crypt of Mohammed Adil Shah, who was the Sultan of Bijapur. He was the seventh ruler of Adil Shah Dynasty. This magnificent monument was constructed by the architect Yaqut of Dabul, in the year 1656. The monument derives its name from Gola Gummata or Gol Gombadh, which mean a circular dome. Constructed as per the Deccan architecture, Gol Gumbaz is one of the most significant monuments of India located in the state of Karnataka.
+The grand structure of the monument is composed of a cube on each side, which is capped by a dome in external diameter. Inside the gigantic dome, whispering gallery runs around. These are named so because even the slightest of the sound can be heard on the other side due to the acoustics of the space. The construction of Gol Gumbaz started in the year 1626 AD, and it took about a span of 30 years to complete its structure. It is maintained by the Archaeological Survey of India (ASI).
+
+Made from Dark Grey Basalt, the monument proudly exhibits the Deccan Indo-Islamic style of architecture. The memorial is widely known for its dimensions and unique acoustic features. It is sometimes even referred as the Taj Mahal of South India. Along with the tomb of Mohammed Adil Shah, Gol Gumbaz is also the resting place for his wives and daughters. Gol Gumbaz is known as an imposing structure of national importance; hence it is visited by travellers from all across the globe, throughout the year." />
+
+    </ScrollView>
+</RelativeLayout>
